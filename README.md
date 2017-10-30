@@ -34,7 +34,7 @@ TODO
 - nginx (as proxy)
 - Docker
 
-### :brush: Art & Design
+### :sparkler: Art & Design
 
 - Bootstrap 4
 - Sass
