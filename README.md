@@ -2,11 +2,11 @@
 
 Personal Portfolio, CV and Blog for **Rai Butera** ([github](https://github.com/raigasm), [Twitter](https://twitter.com/raibutera), [email](mailto:rai@rbutera.com)), Oxford University Alumnus and current student @ the University of Bristol.
 
-Hosted at (rbutera.com)[https://rbutera.com] and (raikun.org)[https://raikun.org] using Docker and AWS.
+Hosted at [rbutera.com](https://rbutera.com) and [raikun.org](https://raikun.org) using Docker and AWS.
 
 Hope to expand this soon with some free resources for public use.
 
-Open-source on github to show my skills potential employers.
+Open-source on github to show my skills to potential employers.
 
 ## :grey_question: Related Blog Post
 
