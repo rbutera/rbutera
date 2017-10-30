@@ -1,4 +1,4 @@
-# rbutera.com :panda:
+# rbutera.com :panda_face:
 
 Personal Portfolio, CV and Blog for **Rai Butera** ([github](https://github.com/raigasm), [Twitter](https://twitter.com/raibutera), [email](mailto:rai@rbutera.com)), Oxford University Alumnus and current student @ the University of Bristol.
 
@@ -18,7 +18,7 @@ TODO
 
 ## :grey_exclamation: Technologies Used
 
-### :panda: Landing Page
+### :panda_face: Landing Page
 
 - Webpack :heart:
 - vue.js
