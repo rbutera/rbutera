@@ -35,13 +35,14 @@ h1 strong,
 h1 em {
   color: white;
 }
-a,
-a:visited,
-a:active {
+i,
+#blurb a,
+#blurb a:visited,
+#blurb a:active {
   color: #ffd54f;
 }
 
-a:hover {
+#blurb a:hover {
   color: #ffff81;
 }
 
@@ -75,4 +76,9 @@ h1#title {
 
 div#contact {
   margin-bottom: 10%;
+}
+
+a i {
+  vertical-align: baseline;
+  margin-right: 10px;
 }
