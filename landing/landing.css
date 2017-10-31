@@ -1,0 +1,58 @@
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #000;
+}
+
+h1,
+li {
+  color: white;
+}
+
+p {
+  color: #cccccc;
+}
+
+p strong,
+p em {
+  color: white;
+}
+a,
+a:visited,
+a:active {
+  color: #ffd54f;
+}
+
+a:hover {
+  color: #ffff81;
+}
+
+.jumbotron {
+  background-color: #151515;
+}
+
+img#rai-logo {
+  margin-top: 10%;
+}
+
+h1#title {
+  margin-top: 10%;
+}
+
+.vertical-center {
+  min-height: 100%;
+  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh;
+  /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
+.jumbotron {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
