@@ -1,0 +1,19 @@
+{
+  "name": "rbutera",
+  "version": "1.0.0",
+  "description": "Rai Butera online portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raigasm/rbutera.git"
+  },
+  "author": "Rai Butera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Raigasm/rbutera/issues"
+  },
+  "homepage": "https://github.com/Raigasm/rbutera#readme"
+}
