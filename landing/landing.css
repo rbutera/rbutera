@@ -5,19 +5,34 @@ html {
 
 body {
   background-color: #000;
+  background-image: url("william-santos.jpg");
+}
+
+h1,
+h2,
+a,
+li,
+p {
+  text-shadow: 1px 1px #000000;
+}
+
+a {
+  font-weight: 600;
 }
 
 h1,
 li {
-  color: white;
+  color: #eee;
 }
 
 p {
-  color: #cccccc;
+  color: #eee;
 }
 
 p strong,
-p em {
+p em,
+h1 strong,
+h1 em {
   color: white;
 }
 a,
@@ -32,6 +47,7 @@ a:hover {
 
 .jumbotron {
   background-color: #151515;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 img#rai-logo {
@@ -55,4 +71,8 @@ h1#title {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+}
+
+div#contact {
+  margin-bottom: 10%;
 }
