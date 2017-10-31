@@ -4,7 +4,9 @@
   "description": "Rai Butera online portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Raigasm/rbutera/issues"
   },
-  "homepage": "https://github.com/Raigasm/rbutera#readme"
+  "homepage": "https://github.com/Raigasm/rbutera#readme",
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  }
 }
