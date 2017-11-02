@@ -1,0 +1,11 @@
+// this is custom bootstrap modification
+// Your variable overrides
+$body-bg: #000;
+// $body-color: #000;
+$primary: #ffd54f;
+
+$font-family-sans-serif: Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+
+// Bootstrap and its default variables
+@import "node_modules/bootstrap/scss/bootstrap";

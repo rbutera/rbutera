@@ -1,0 +1,87 @@
+@import "custom";
+@import "~bootstrap/scss/bootstrap";
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #000;
+  background-image: url("./william-santos.jpg");
+}
+
+h1,
+h2,
+a,
+li,
+p {
+  text-shadow: 1px 1px #000000;
+}
+
+a {
+  font-weight: 600;
+}
+
+h1,
+li {
+  color: #eee;
+}
+
+p {
+  color: #eee;
+}
+
+p strong,
+p em,
+h1 strong,
+h1 em {
+  color: white;
+}
+i,
+#blurb a,
+#blurb a:visited,
+#blurb a:active {
+  color: #ffd54f;
+}
+
+#blurb a:hover {
+  color: #ffff81;
+}
+
+.jumbotron {
+  background-color: #151515;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+img#rai-logo {
+  margin-top: 10%;
+}
+
+h1#title {
+  margin-top: 10%;
+}
+
+.vertical-center {
+  min-height: 100%;
+  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh;
+  /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
+.jumbotron {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+div#contact {
+  margin-bottom: 10%;
+}
+
+a i {
+  vertical-align: baseline;
+  margin-right: 10px;
+}

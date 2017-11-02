@@ -1,2 +1,6 @@
+import "bootstrap";
 import _ from "lodash";
-import "./landing.css";
+import "./landing.scss";
+require("font-awesome-webpack");
+
+console.log("Hi Rai");
