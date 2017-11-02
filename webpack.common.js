@@ -1,11 +1,12 @@
 const path = require("path");
 const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const CleanWebpackPlugin = require("clean-webpack-plugin");
 
 module.exports = {
   entry: "./landing/index.js",
   output: {
-    filename: "index_bundle.js",
+    filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist")
   },
   module: {
@@ -45,6 +46,7 @@ module.exports = {
     ]
   },
   plugins: [
+    new CleanWebpackPlugin(["dist"]),
     new HtmlWebpackPlugin({
       title: "Rai Butera - Designer, Developer, Entrepreneur",
       template: "landing/index.html"

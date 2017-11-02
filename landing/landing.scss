@@ -7,7 +7,48 @@ html {
 
 body {
   background-color: #000;
-  background-image: url("./william-santos.jpg");
+}
+
+body {
+  animation: background-fade 35s infinite;
+}
+
+@keyframes background-fade {
+  0% {
+    background: #2196f3;
+  }
+
+  // indigo
+  14% {
+    background: #3f51b5;
+  }
+  // violet
+  28% {
+    background: #9c27b0;
+  }
+
+  // red
+  42% {
+    background: #f44336;
+  }
+  // orange
+  56% {
+    background: #ff9800;
+  }
+
+  // yellow
+  70% {
+    background: #ffeb3b;
+  }
+
+  // green
+  84% {
+    background: #4caf50;
+  }
+
+  100% {
+    background: #2196f3;
+  }
 }
 
 h1,
@@ -48,8 +89,8 @@ p {
 // }
 
 .jumbotron {
-  background-color: #151515;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 img#rai-logo {
@@ -94,4 +135,8 @@ img#rai-logo {
 
 .jumbotron-padding {
   padding: 2.5rem !important;
+}
+
+a.btn:hover {
+  color: #000;
 }
