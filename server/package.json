@@ -9,5 +9,8 @@
   },
   "author": "Rai Butera",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "sails": "^0.12.14"
+  }
 }
