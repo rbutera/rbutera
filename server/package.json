@@ -1,0 +1,13 @@
+{
+  "name": "rbutera-server",
+  "version": "1.0.0",
+  "description": "Server for rbutera.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage --forceExit"
+  },
+  "author": "Rai Butera",
+  "license": "MIT",
+  "dependencies": {}
+}
