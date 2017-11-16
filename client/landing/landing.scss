@@ -89,8 +89,18 @@ p {
 // }
 
 .jumbotron {
+  &#jumbo-info {
+    border-radius: 2.5rem !important;
+  }
+
   background-color: #000;
   background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.jumbotron-padding {
+  padding: 2.5rem !important;
 }
 
 img#rai-logo {
@@ -110,12 +120,6 @@ h1#title {
   align-items: center;
 }
 
-.jumbotron {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
 div#contact {
   margin-bottom: 10%;
 }
@@ -126,16 +130,12 @@ a i {
 }
 
 img#rai-logo {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 // #contact a.btn {
 //   margin: 10px 20px;
 // }
-
-.jumbotron-padding {
-  padding: 2.5rem !important;
-}
 
 a.btn:hover {
   color: #000;
