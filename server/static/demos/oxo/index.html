@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>
+    OXO.js - Tic-Tac-Toe vue.js demo
+  </title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+  <h1>oxo.js: tic-tac-toe using ES6 and vue.js</h1>
+<div id="oxo-root" v-bind:class="{playing: gameState.playing}">
+  <div id="oxo-controls">
+    <button class="oxo-control" type="button" autofocus="autofocus" v-on:click="startGame()">{{startButtonLabel}}</button>
+  </div>
+
+  <div id="oxo-base" v-if="gameState.playing">
+    <div v-for="row in gameState.game.grid" class="oxo-row">
+      <button v-for="cell in row" class="oxo-cell" v-on:click="makeMove(cell)" v-bind:class="{ player1: cell.value == 'X', player2: cell.value == 'O' }">
+        <div v-if="cell.value != 'N'" class="oxo-player">{{cell.value}}</div>
+      </button>
+    </div>
+  </div>
+
+  <div id="oxo-instructions" v-if="!gameState.playing">
+    <p>Press the start button to begin!</p>
+  </div>
+
+  <div id="oxo-status" v-if="gameState.playing">
+    <p>It's
+      <span class="oxo-status-player" v-bind:class="{ player1: gameState.game.next == 'X', player2: gameState.game.next == 'O' }">Player {{gameState.game.next}}</span>'s turn.</p>
+    <p>
+      <strong>{{gameState.game.moves}}</strong> moves have been taken.</p>
+  </div>
+
+</div>
+<script type="text/javascript" src="main.bundle.js"></script></body>
+
+</html>
