@@ -1,6 +1,6 @@
 {
   "name": "rbutera",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rai Butera online portfolio",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,8 @@
     "style-loader": "^0.19.0",
     "webpack": "^3.8.1",
     "webpack-dev-server": "^2.9.4",
-    "webpack-merge": "^4.1.1"
+    "webpack-merge": "^4.1.1",
+    "webpack-shell-plugin": "^0.5.0"
   },
   "dependencies": {
     "autoprefixer": "^7.1.6",
